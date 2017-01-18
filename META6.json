@@ -1,0 +1,15 @@
+{
+  "name" : "gfldex-meta-zef-test",
+  "source-url" : "git://github.com/gfldex/gfldex-meta-zef-test",
+  "perl" : "v6",
+  "build-depends" : [ ],
+  "provides" : {
+  },
+  "depends" : [ Typesafe::XHTML::Writer, Rakudo::Slippy::Semilist, Operator::defined-alternation, Concurrent::Channelify, Concurrent::File::Find, XHTML::Writer, Typesafe::HTML ],
+  "description" : "Meta package to test installation with zef",
+  "test-depends" : [ ],
+  "version" : "0.0.1",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer"
+  ]
+}
