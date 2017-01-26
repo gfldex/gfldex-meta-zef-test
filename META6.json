@@ -1,6 +1,6 @@
 {
   "name" : "gfldex-meta-zef-test",
-  "source-url" : "git://github.com/gfldex/gfldex-meta-zef-test",
+  "source-url" : "https://github.com/gfldex/gfldex-meta-zef-test.git",
   "perl" : "v6",
   "build-depends" : [ ],
   "provides" : {
