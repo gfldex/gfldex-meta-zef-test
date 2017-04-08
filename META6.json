@@ -5,7 +5,7 @@
   "build-depends" : [ ],
   "provides" : {
   },
-  "depends" : [ "Test::META", "Typesafe::XHTML::Writer", "Rakudo::Slippy::Semilist", "Operator::defined-alternation", "Concurrent::Channelify", "Concurrent::File::Find", "XHTML::Writer", "Typesafe::HTML", "Git::Config", "Proc::Async::Timeout" ],
+  "depends" : [ "Test::META", "Typesafe::XHTML::Writer", "Rakudo::Slippy::Semilist", "Slippy::Semilist", "Operator::defined-alternation", "Concurrent::Channelify", "Concurrent::File::Find", "XHTML::Writer", "Typesafe::HTML", "Git::Config", "Proc::Async::Timeout" ],
   "description" : "Meta package to test installation with zef",
   "test-depends" : [ ],
   "version" : "0.0.1",
