@@ -1,7 +1,7 @@
-language: perl6
 sudo: false
-perl6:
-    - latest
+before_install:
+    curl https://github.com/nxadm/rakudo-pkg/releases/download/2017.03_02/perl6-rakudo-moarvm-ubuntu16.04_20170300-02_amd64.deb
+    sudo deb --install perl6-rakudo-moarvm-ubuntu16.04_20170300-02_amd64.deb
 install:
     - rakudobrew build-zef
     - zef --debug install .
