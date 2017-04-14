@@ -6,8 +6,8 @@ before_install:
     - export PATH=/opt/rakudo/bin:$PATH
     - ls -l /home/travis/
     - ls -l /home/travis/.zef/
-    - tree -a /home/travis/
     - whoami
+    - sudo chown -R travis.travis /home/travis/.zef/
 install:
     - zef --debug install .
 script:
